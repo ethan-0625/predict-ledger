@@ -30,6 +30,18 @@ Starting from Match #74, the ledger transitions to a strict, machine-readable sc
 > 🔗 **[Click here to view the full V2 Live Ledger (点击此处查看 V2 完整实时账本) ➡️](./V2_Ledger.csv)**
 
 ---
+### 📖 V2 Data Dictionary (Key Variables) / 数据字典（核心变量声明）
+To ensure clear backtesting parameters and eliminate ambiguity in data auditing, the categorical variables are defined as follows:
+*(为确保明确的回测参数并消除数据审计中的歧义，核心分类变量严格定义如下：)*
+
+* **`Conviction` (Discretionary Confidence Score / 主观确信度):**
+  * `3` = **High (高)**: Core conviction trade. Deep fundamental or market alpha identified. *(核心主战仓位。已识别出深度的基本面或市场 Alpha。)*
+  * `2` = **Medium (中)**: Standard system output. Aligns with baseline quantitative parameters. *(常规模型输出。符合基础量化参数设定。)*
+  * `1` = **Low (低)**: Exploratory/Edge case. Placed primarily for data gathering and tracking new patterns. *(探索性/边缘测试单。主要用于数据收集和追踪新盘口模式。)*
+
+* **`Bookmaker` (Execution Venue / 执行机构):** 
+  Standardized institutional abbreviations (e.g., `PIN` = Pinnacle, `BF` = Betfair). 
+  *(标准化的机构简称，例如：`PIN` = 平博，`BF` = 必发交易所。)*
 
 ## ⚠️ Disclaimer / 免责声明
 **Not Financial Advice (NFA).** The data, strategies, and historical records provided in this repository are strictly for educational, research, and technical demonstration purposes. They do not constitute financial, investment, or betting advice. Sports markets are highly volatile, and past performance is not indicative of future results. The repository owner assumes absolutely no liability for any financial losses incurred by utilizing the information, signals, or code within this project. Trade and wager strictly at your own risk.
