@@ -8,7 +8,6 @@
 
 ## 📈 V1 Strategy Baseline (Discretionary & Expert Intuition Phase) / V1 策略基准（主观裁量与专家直觉期）
 * **Tracking Period / 追踪周期:** 2026-07-05 to 2026-07-20
-* **Status / 状态:** Manual exploratory tracking phase driven entirely by human domain expertise, market pattern recognition, and odds-reading intuition (Matches 1–73). Archived for historical audit. *(完全由人类领域专业知识、市场模式识别与盘口直觉驱动的手工探索追踪阶段，已归档供历史审计)*
 * **Total Tracked Matches / 总追踪场次:** 73
 * **Cumulative Yield / 累计收益率 (Yield):** 16.32%
 * **Capital Return / 投资回报率 (ROI):** 13.22%
@@ -16,11 +15,13 @@
 * **Core Philosophy / 核心理念:** Proof of discretionary market edge. Demonstrates that human-in-the-loop odds-reading, when paired with strict pre-match Git timestamping, yields a positive mathematical expectation without hindsight bias. *(证明主观市场优势。表明人在环路的盘口阅读，若结合严格的赛前 Git 时间戳，能在无前瞻偏差的情况下产生正向数学期望。)*
 * **Audit Verification / 审计验证:** All historical entries are securely locked via the repository's cryptographic commit history (21 commits recorded). *(所有历史条目均通过仓库的密码学提交历史安全锁定)*
 
----
+### 🏛️ V1 Legacy Snapshot (Match #3 - #76)
+The repository archives the complete V1 historical dataset (`V1_Legacy_Ledger.csv`), featuring 73 live-trading records with integrated performance tracking (`Turnover`, `Cum PnL`, `Yield%`, `ROI%`) and cryptographic commit URLs. While it lacks explicit market-type definitions (e.g., `+/-` for Asian Handicap, `O/U` for Over/Under, and `1/X/2` for 1X2 odds), all odds values strictly reflect the market state at the exact timestamp of each commit. If line movements occurred prior to closing, auditors should cross-reference the corresponding market lines for verification. *(Note: Bookmakers for matches #3–22 are Crown, while all remaining matches are Pinnacle).*
+*(本仓库归档了完整的 V1 历史数据集 `V1_Legacy_Ledger.csv`，包含 73 场实盘记录，并集成了性能追踪指标（总流水、累计盈亏、收益率、ROI）及密码学提交链接。尽管它缺乏对亚盘、大小球和欧赔的显式市场类型定义（如 `+/-`、`O/U`、`1/X/2`），但所有赔率数值均严格以每次提交（Commit）的时间戳为准。若在闭盘前发生盘口升降，审计时请对照相应的盘口进行比对。（注：第 3-22 场的博彩公司为皇冠，其余均为平博）。)*
 
 ## 🚀 V2 Quantitative Architecture (Active) / V2 量化架构（运行中）
-Starting from Match #74, the ledger transitions to a strict, machine-readable schema designed for automated Python backtesting (`pandas` compatible). 
-*(从第 74 场开始，账本过渡到专为自动化 Python 回测设计的严格、机器可读的标准结构。)*
+With the launch of the V2 architecture, the event counter resets to Match #1. The ledger now strictly adheres to a machine-readable schema designed for automated Python backtesting (pandas compatible). 
+*(随着 V2 架构的启用，比赛计数器从第 1 场重新开始。账本现已全面过渡到专为自动化 Python 回测设计的严格、机器可读标准结构。)*
 
 ### 📋 V2 Strategy Execution Ledger / V2 策略执行流水
 > **🗄️ Database Redirect / 数据库重定向**
