@@ -5,13 +5,23 @@
 > *(本仓库记录了一个系统的、主观裁量型的足球交易账本。所有历史探索性记录（V1）和实时策略（V2）均通过 Git 版本控制进行密码学时间戳防伪，以确保绝对的赛前透明度、零前瞻偏差及可回测的完整审计性。)*
 
 ---
+## 📊 Ledger Architecture & Evolution / 账本架构与演进
 
+This repository tracks discretionary sports trading performance through a structured, data-driven framework. To maintain historical integrity and scientific rigor, the ledger is divided into two versions:
+
+本仓库通过结构化、数据驱动的框架来追踪主观体育交易表现。为保持历史完整性与科学严谨性，账本演进划分为两个版本：
 ## 📈 V1 Strategy Baseline (Discretionary & Expert Intuition Phase) / V1 策略基准（主观裁量与专家直觉期）
+### 1. V1 Legacy Ledger (`V1_Legacy_Ledger.csv`)
+
+* **Status:** Archived / Legacy 🏛️  
+  *状态：* 已归档 / 历史存档 🏛️
 * **Tracking Period / 追踪周期:** 2026-07-05 to 2026-07-20
 * **Total Tracked Matches / 总追踪场次:** 73
-* **Cumulative Yield / 累计收益率 (Yield):** 16.32%
+* **Cumulative Yield / 累计收益率:** ~~16.32%~~ ➡️ 17.86%  
+  *(Note: Yield was recalculated and corrected after normalizing the turnover tracking metric to ensure strict mathematical consistency. / 注：因对底层流水统计口径进行了标准化，收益率已重新校准，以确保严密的数学自洽。)*
 * **Capital Return / 投资回报率 (ROI):** 13.22%
 * **Net PnL / 净盈亏:** +14.22 Units
+* **Max Drawdown / 最大回撤:** -[13.91] Units
 * **Core Philosophy / 核心理念:** Proof of discretionary market edge. Demonstrates that human-in-the-loop odds-reading, when paired with strict pre-match Git timestamping, yields a positive mathematical expectation without hindsight bias. *(证明主观市场优势。表明人在环路的盘口阅读，若结合严格的赛前 Git 时间戳，能在无前瞻偏差的情况下产生正向数学期望。)*
 * **Audit Verification / 审计验证:** All historical entries are securely locked via the repository's cryptographic commit history (21 commits recorded). *(所有历史条目均通过仓库的密码学提交历史安全锁定)*
 
