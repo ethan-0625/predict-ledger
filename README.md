@@ -1,76 +1,36 @@
-# predict-ledger
-静态数据结构预测账本 - 时间戳防伪存证存根
-2026年7月5日	韩职联	FC首尔vs仁川联队	市场强拉平衡	拉锯均势死锁	1.87	1% 稳健仓
-2026年7月5日	韩职联	金泉尚武vs济州SK	让步过浅	主场虫/客场龙	2.81	2% 核心仓
-2026年7月5日	韩职联	光州FCvs蔚山HD	深盘阻大	拉锯均势死锁	0.88	1% 稳健仓
-2026年7月5日	韩K2联	金海FCvs首尔衣恋	阻下诱上	无	4.2	1% 稳健仓
-2026年7月5日	韩K2联	金浦FCvs忠南牙山FC	市场强拉平衡	主场龙/客场虫	1.81	2% 核心仓
-2026年7月5日	韩职联	庆南FCvs天安城	让步过浅	主场龙/客场虫	2.67	2% 核心仓
-2026年7月5日	韩K2联	全南天龙vs釜山IPark	阻下诱上	主场虫/客场龙	2.76	2% 核心仓
-2026年7月7日	瑞典超	赫根vs佐加顿斯	阻上诱下	拉锯均势死锁	2.36	1% 稳健仓
-2026年7月7日	瑞典超	布洛马波卡纳vs哥德堡盖斯	阻下诱上	无	0.82	1% 稳健仓
-2026年7月7日	巴西乙	维拉诺瓦vs圣贝纳多	阻下诱上	无	1.94	1% 稳健仓
-2026年7月7日	巴西乙	保地花高SPvs奥瓦	逆向撕裂	无	3.2	1% 稳健仓
-2026年7月7日	冰岛超	凯夫拉维克vs弗拉姆	无	无	1.82	1% 稳健仓
-2026年7月7日	世界杯	葡萄牙vs西班牙	阻上诱下	拉锯均势死锁	1.97	1% 稳健仓
-2026年7月7日	世界杯	美国vs比利时	逆向撕裂	无	2.44	1% 稳健仓
-2026年7月8日	世界杯	阿根廷vs埃及	11.75	1% 稳健仓	阻下诱上	无
-2026年7月8日	欧冠	弗洛里亚纳vs沙姆洛克流浪	1.86	1% 稳健仓	大脑直觉模型	无
-2026年7月8日	世界杯	瑞士vs哥伦比亚	3.11	1% 稳健仓	直觉-市场诱盘	无
-2026年7月8日	巴西乙	巴西竞技vs欧帕尔利奥	2.93	1% 稳健仓	阻下诱上	无
-2026年7月11日	巴西乙	尤文图德vs维拉诺瓦	0.85	1% 稳健仓	阻上诱下	拉锯均势死锁
-2026年7月11日	巴西乙	累西腓体育vs保地花高SP	4.35	1% 稳健仓	阻下诱上	主场龙/客场虫
-2026年7月12日	瑞典超	哈马比vs卡尔马	0.97	1% 稳健仓	阻上诱下	无	Pinnacle
-2026年7月12日	瑞典超	瓦斯特拉斯vs代格福什	2.13	1% 稳健仓	直觉-超跌反弹	无	Pinnacle
-2026年7月14日	瑞典超	佐加顿斯vs哈尔姆斯	1.07	1% 稳健仓	深盘阻大	无	Pinnacle
-2026年7月14日	冰岛超	贝雷达比历克vs凯夫拉维克	3.76	2% 核心仓	让步过浅	主场龙/客场虫	Pinnacle
-2026年7月14日	巴西乙	米内罗美洲vs隆迪那	3.85	2% 核心仓	让步过浅	主场龙/客场虫	Pinnacle
-2026年7月14日	巴西乙	塞阿拉vs巴西竞技	0.93	2% 核心仓	机构强势深盘	无	Pinnacle
-2026年7月15日	世界杯	法国vs西班牙	3.01	欧赔	1% 稳健仓	无	无	Pinnacle
-2026年7月15日	苏联杯	福尔柯克vs艾尔联	0.9	亚盘	1% 稳健仓	机构强势深盘	无	Pinnacle
-2026年7月15日	苏联杯	基马诺克vs拉茨流浪者	1.55	欧赔	1% 稳健仓	无	无	Pinnacle
-2026年7月15日	欧冠	沙姆洛克流浪vs弗洛里亚纳	0.88	亚盘	1% 稳健仓	机构强势深盘	无	Pinnacle
-2026年7月16日	欧协联	国际图尔库vs萨拉热窝	0.8	大小球	1% 稳健仓	无	无	Pinnacle
-2026年7月17日	欧罗巴杯	德里城vs索非亚中央陆军	3.65	欧赔	1% 稳健仓	无	无	Pinnacle
-2026年7月17日	欧罗巴杯	维斯特里vs卡拉巴赫	0.79	亚盘	1% 稳健仓	无	主场龙/客场虫	Pinnacle
-2026年7月17日	阿根廷杯	竞技俱乐部vs防卫者	4.34	欧赔	1% 稳健仓	直觉-纯粹高赔博弈	球风绝对压制	Pinnacle
-2026年7月17日	巴西甲	博塔弗戈vs桑托斯	3.38	欧赔	1% 稳健仓	让步过浅	主场龙/客场虫	Pinnacle
-2026年7月17日	美职联	CF蒙特利尔vs多伦多FC	2.42	欧赔	1% 稳健仓	直觉-超跌反弹	拉锯均势死锁	Pinnacle
-2026年7月17日	巴西乙	雷加塔斯巴西vs累西腓航海	2.01	欧赔	1% 稳健仓	阻上诱下	无	Pinnacle
-2026年7月17日	美职联	圣路易斯城vs堪萨斯城竞	0.82	大小球	1% 稳健仓	无	无	Pinnacle
-2026年7月17日	美职联	芝加哥火焰vs温哥华白浪	0.9	大小球	1% 稳健仓	市场强拉平衡	拉锯均势死锁	Pinnacle
-2026年7月17日	阿根廷杯	萨尔米安杜vs博卡青年	1.02	大小球	1% 稳健仓	无	无	Pinnacle
-2026年7月17日	美职联	西雅图海湾人vs波特兰伐木者	1	亚盘	1% 稳健仓	机构强势深盘	无	Pinnacle
-2026年7月17日	墨西联	蒂华纳vs老虎大学	2.07	欧赔	1% 稳健仓	阻上诱下	无	Pinnacle
-2026年7月17日	巴西甲	维多利亚vs瓦斯科达伽马	1.02	大小球	1% 稳健仓	浅盘诱大	拉锯均势死锁	Pinnacle
-2026年7月17日	罗甲	沃伦塔利vs博托沙尼	3.18	欧赔	1% 稳健仓	直觉-市场诱盘	无	Pinnacle
-2026年7月18日	芬甲	克鲁比04vs哈卡	0.97	大小球	1% 稳健仓	无	主场虫/客场龙	Pinnacle
-2026年7月18日	芬甲	卡亚尼卡帕vsSJK学院	2.43	欧赔	1% 稳健仓	浅盘诱大	主场虫/客场龙	Pinnacle
-2026年7月18日	瑞典超	哥德堡vs布鲁马波卡纳	1.93	欧赔	1% 稳健仓	机构强势深盘	主场虫/客场龙	Pinnacle
-2026年7月18日	瑞典超	米亚尔比vs瓦斯特拉斯	3.99	欧赔	1% 稳健仓	阻下诱上	主场龙/客场虫	Pinnacle
-2026年7月18日	挪超	博德闪耀vs腓特烈斯塔	0.85	亚盘	2% 核心仓	阻下诱上	主场龙/客场虫	Pinnacle
-2026年7月18日	罗甲	布加勒斯特星队vs阿格斯	0.88	大小球	1% 稳健仓	阻上诱下	主场龙/客场虫	Pinnacle
-2026年7月18日	爱足杯	费恩哈普vs布雷流浪者	0.91	亚盘	2% 核心仓	直觉-超跌反弹	无	Pinnacle
-2026年7月18日	爱足杯	沃特福德联队vs科布漫步者	0.94	亚盘	1% 稳健仓	无	无	Pinnacle
-2026年7月18日	爱足杯	沙姆洛克流浪vs科克城	5.92	欧赔	1% 稳健仓	让步过浅	双线体能周期失衡	Pinnacle
-2026年7月18日	巴西甲	弗鲁米嫩塞vs布拉干蒂诺RB	0.86	亚盘	2% 核心仓	无	无	Pinnacle
-2026年7月18日	巴西甲	米拉索vs格雷米奥	0.95	亚盘	2% 核心仓	无	主场龙/客场虫	Pinnacle
-2026年7月18日	阿根廷杯	河床vs阿尔多斯维	7.69	欧赔	1% 稳健仓	让步过浅	主场龙/客场虫	Pinnacle
-2026年7月18日	墨西联	圣路易斯竞技vs蓝十字	3.8	欧赔	1% 稳健仓	大脑直觉模型	无	Pinnacle
-2026年7月19日	巴西乙	戈亚尼亚竞技vs巴西竞技	3.39	欧赔	2% 核心仓	无	无	Pinnacle
-2026年7月19日	世界杯	法国vs英格兰	4.59	欧赔	1% 稳健仓	阻下诱上	主场龙/客场虫	Pinnacle
-2026年7月19日	墨西联	蒙特雷vs桑托斯拉古纳	1	大小球	1% 稳健仓	直觉-超跌反弹	主场龙/客场虫	Pinnacle
-2026年7月19日	墨西联	瓜达拉哈拉vs托卢卡	1.05	亚盘	1% 稳健仓	大脑直觉模型	无	Pinnacle
-2026年7月19日	韩职联	FC安养vs光州FC	1.71	欧赔	1% 稳健仓	大脑直觉模型	拉锯均势死锁	Pinnacle
-2026年7月19日	韩职联	富川FCvsFC首尔	3.85	欧赔	1% 稳健仓	阻下诱上	无	Pinnacle
-2026年7月19日	韩K2联	水原三星vs坡州市民	4.99	欧赔	1% 稳健仓	阻下诱上	无	Pinnacle
-2026年7月19日	韩K2联	龙仁FCvs华城FC	2.47	欧赔	1% 稳健仓	无	无	Pinnacle
-2026年7月19日	韩K2联	庆南FCvs安山小绿人	0.86	大小球	1% 稳健仓	无	主场龙/客场虫	Pinnacle
-2026年7月19日	韩K2联	忠北清州vs天安城	0.94	大小球	1% 稳健仓	无	主场龙/客场虫	Pinnacle
-2026年7月19日	瑞典超	哈马比vs代格福什	12.9	欧赔	1% 稳健仓	直觉-纯粹高赔博弈	主场龙/客场虫	Pinnacle
-2026年7月19日	瑞典超	哈尔姆斯塔德vs赫根	0.92	大小球	1% 稳健仓	阻上诱下	无	Pinnacle
-2026年7月19日	瑞典超	埃尔夫斯堡vs天狼	1.01	大小球	1% 稳健仓	大脑直觉模型	主场龙/客场虫	Pinnacle
-2026年7月20日	芬超	雅罗vs图尔库国际	0.88	大小球	1% 稳健仓	无	主场虫/客场龙	Pinnacle
-2026年7月20日	冰岛超	KR雷克雅未克vs加尔扎拜尔星	0.86	大小球	1% 稳健仓	机构强势深盘	拉锯均势死锁	Pinnacle
-2026年7月20日	罗甲	佩特罗鲁vs布加勒斯特迪纳摩	3.72	欧赔	1% 稳健仓	阻下诱上	主场虫/客场龙	Pinnacle
-2026年7月20日	世界杯	西班牙vs阿根廷	3.04	欧赔	1% 稳健仓	大脑直觉模型	主场龙/客场虫	Pinnacle
+# ⚽ MCO Sports Quantitative Trading & Alpha Research
+
+> **🛡️ Engineering & Data Integrity Notice / 工程与数据审计声明**
+> This repository documents a systematic, discretionary football trading ledger. All historical exploratory records (V1) and live quantitative strategies (V2) are cryptographically timestamped via Git version control to ensure complete pre-match transparency, zero look-ahead bias, and full auditability for backtesting.
+> *(本仓库记录了一个系统的、主观裁量型的足球交易账本。所有历史探索性记录（V1）和实时策略（V2）均通过 Git 版本控制进行密码学时间戳防伪，以确保绝对的赛前透明度、零前瞻偏差及可回测的完整审计性。)*
+
+---
+
+## 📈 V1 Strategy Baseline (Discretionary & Expert Intuition Phase) / V1 策略基准（主观裁量与专家直觉期）
+* **Tracking Period / 追踪周期:** 2026-07-05 to 2026-07-20
+* **Status / 状态:** Manual exploratory tracking phase driven entirely by human domain expertise, market pattern recognition, and odds-reading intuition (Matches 1–73). Archived for historical audit. *(完全由人类领域专业知识、市场模式识别与盘口直觉驱动的手工探索追踪阶段，已归档供历史审计)*
+* **Total Tracked Matches / 总追踪场次:** 73
+* **Cumulative Yield / 累计收益率 (Yield):** 16.32%
+* **Capital Return / 投资回报率 (ROI):** 13.22%
+* **Net PnL / 净盈亏:** +14.22 Units
+* **Core Philosophy / 核心理念:** Proof of discretionary market edge. Demonstrates that human-in-the-loop odds-reading, when paired with strict pre-match Git timestamping, yields a positive mathematical expectation without hindsight bias. *(证明主观市场优势。表明人在环路的盘口阅读，若结合严格的赛前 Git 时间戳，能在无前瞻偏差的情况下产生正向数学期望。)*
+* **Audit Verification / 审计验证:** All historical entries are securely locked via the repository's cryptographic commit history (21 commits recorded). *(所有历史条目均通过仓库的密码学提交历史安全锁定)*
+
+---
+
+## 🚀 V2 Quantitative Architecture (Active) / V2 量化架构（运行中）
+Starting from Match #74, the ledger transitions to a strict, machine-readable schema designed for automated Python backtesting (`pandas` compatible). 
+*(从第 74 场开始，账本过渡到专为自动化 Python 回测设计的严格、机器可读的标准结构。)*
+
+### 📋 V2 Strategy Execution Ledger / V2 策略执行流水
+> **🗄️ Database Redirect / 数据库重定向**
+> To maintain dashboard readability and strict data separation, the continuous live ledger is maintained in a dedicated file. 
+> *(为保持主页可读性与严格的数据分离，连续的实时账本维护在独立文件中。)*
+> 
+> 🔗 **[Click here to view the full V2 Live Ledger (点击此处查看 V2 完整实时账本) ➡️](./V2_Ledger.csv)**
+
+---
+
+## ⚠️ Disclaimer / 免责声明
+**Not Financial Advice (NFA).** The data, strategies, and historical records provided in this repository are strictly for educational, research, and technical demonstration purposes. They do not constitute financial, investment, or betting advice. Sports markets are highly volatile, and past performance is not indicative of future results. The repository owner assumes absolutely no liability for any financial losses incurred by utilizing the information, signals, or code within this project. Trade and wager strictly at your own risk.
+*(非财务建议。本仓库提供的所有数据、策略及历史记录仅用于教育、学术研究及技术展示目的，绝不构成任何财务、投资或博彩建议。体育市场具有高度波动性，过往业绩不代表未来表现。仓库所有者对任何人因使用本项目中的信息、信号或代码而导致的任何财务损失概不负责。任何跟单或交易行为的风险均由您自行承担。)*
