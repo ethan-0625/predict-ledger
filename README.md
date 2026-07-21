@@ -19,6 +19,12 @@
 The repository archives the complete V1 historical dataset (`V1_Legacy_Ledger.csv`), featuring 73 live-trading records with integrated performance tracking (`Turnover`, `Cum PnL`, `Yield%`, `ROI%`) and cryptographic commit URLs. While it lacks explicit market-type definitions (e.g., `+/-` for Asian Handicap, `O/U` for Over/Under, and `1/X/2` for 1X2 odds), all odds values strictly reflect the market state at the exact timestamp of each commit. If line movements occurred prior to closing, auditors should cross-reference the corresponding market lines for verification. *(Note: Bookmakers for matches #3–22 are Crown, while all remaining matches are Pinnacle).*
 *(本仓库归档了完整的 V1 历史数据集 `V1_Legacy_Ledger.csv`，包含 73 场实盘记录，并集成了性能追踪指标（总流水、累计盈亏、收益率、ROI）及密码学提交链接。尽管它缺乏对亚盘、大小球和欧赔的显式市场类型定义（如 `+/-`、`O/U`、`1/X/2`），但所有赔率数值均严格以每次提交（Commit）的时间戳为准。若在闭盘前发生盘口升降，审计时请对照相应的盘口进行比对。（注：第 3-22 场的博彩公司为皇冠，其余均为平博）。)*
 
+> 🗄️ **V1 Archive Redirect / V1 历史存档重定向**
+> The complete uncompressed historical dataset is available for direct audit and backtesting analysis. 
+> *(完整的历史数据集已开放，可供直接审计与回测分析。)*
+> 
+> 🔗 **[Click here to view the V1 Legacy Ledger (点击此处查看 V1 历史账本) ➡️](./V1_Legacy_Ledger.csv)**
+
 ## 🚀 V2 Quantitative Architecture (Active) / V2 量化架构（运行中）
 With the launch of the V2 architecture, the event counter resets to Match #1. The ledger now strictly adheres to a machine-readable schema designed for automated Python backtesting (pandas compatible). 
 *(随着 V2 架构的启用，比赛计数器从第 1 场重新开始。账本现已全面过渡到专为自动化 Python 回测设计的严格、机器可读标准结构。)*
