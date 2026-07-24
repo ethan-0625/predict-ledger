@@ -1,2 +1,2 @@
 Commit_Hash,Date,Placed_Timestamp,Minutes_to_Kickoff,Competition,Home,Away,Signal,Bookmaker,Odds,Conviction,Model_Prob,Fair_Odds,Allocation,Kelly_Pct,Closing_Odds,CLV_Pct,Home_Score,Away_Score,Settlement,Net_PnL
-Awaiting Kickoff,2026-07-24 18:30,2026-07-24 18:20,10,FIN2,TEST,TEST,O3,PIN,2.03,3,0.6,1.67,5.29,0.0529,Pending,-,Pending,Pending,⏳ Pending,-
+Awaiting Kickoff,2026-07-25 00:00,2026-07-24 18:22,338,FIN2,TEST,TEST,O3,PIN,2.03,3,0.9,1.11,20,0.2007,Pending,-,Pending,Pending,⏳ Pending,-
