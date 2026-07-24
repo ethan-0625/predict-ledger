@@ -49,7 +49,7 @@ ROT,罗瑟汉姆,Rotherham United,ENG4,
 BLT,博尔顿,Bolton Wanderers,ENG2,
 PET,彼得堡联,Peterborough United,ENG3,
 BNS,巴恩斯利,Barnsley,ENG3,
-LIN,林肯城,Lincoln City,ENG2,
+LNC,林肯城,Lincoln City,ENG2,
 BKP,布莱克浦,Blackpool,ENG3,
 STE,斯蒂文尼奇,Stevenage,ENG3,
 WYC,韦康比流浪者,Wycombe Wanderers,ENG3,
@@ -204,7 +204,7 @@ CDB,科尔多瓦,Cordoba CF,ESP2,
 MAL,马拉加,Malaga CF,ESP1,
 DEP,拉科鲁尼亚,Deportivo La Coruna,ESP1,
 CAS,卡斯特利翁,CD Castellon,ESP2,
-SAB,沙巴度尔,Sabadell,ESP2,
+SBD,沙巴度尔,Sabadell,ESP2,
 PSV,埃因霍温,PSV Eindhoven,NED1,
 FEY,费耶诺德,Feyenoord,NED1,
 TWE,特温特,FC Twente,NED1,
@@ -533,12 +533,12 @@ FCW,韦尔,Wil,SUI2,
 WIN,温特图尔,Winterthur,SUI2,
 YSI,伊韦尔东,Yverdon,SUI2,
 RPJ,瑞普斯威尔,Rapperswil-Jona,SUI2,
-SLO,乌契,Lausanne Ouchy,SUI2,
+OUC,乌契,Lausanne Ouchy,SUI2,
 SHM,沙姆洛克流浪,Shamrock Rovers,IRL1,
 BOH,波希米亚人,Bohemians,IRL1,
 SJP,圣帕特里克,St. Patricks,IRL1,
 DDK,邓多克,Dundalk,IRL1,
-SHE,谢尔伯恩,Shelbourne,IRL1,
+SHL,谢尔伯恩,Shelbourne,IRL1,
 DCI,德里城,Derry City,IRL1,
 GAU,戈尔韦联,Galway,IRL1,
 DRO,德罗赫达联,Drogheda,IRL1,
@@ -627,7 +627,7 @@ WIS,克拉科夫,Wisla,POL1,
 LEW,华沙莱吉亚,Legia,POL1,
 LPO,波兹南莱赫,Lech Poznan,POL1,
 ZAG,卢宾扎格勒比,Zaglebie,POL1,
-CRV,克拉科维亚,Cracovia,POL1,
+CRC,克拉科维亚,Cracovia,POL1,
 WID,维德祖罗兹,Widzew Lodz,POL1,
 RAD,拉多麦科,Radomiak Radom,POL1,
 RAK,琴斯托霍瓦,Rakow,POL1,
@@ -868,3 +868,25 @@ FCS,萨拉热窝,FK Sarajevo,BIH1,
 CSS,索菲亚中央陆军,CSKA Sofia,BUL1
 QAR,卡拉巴赫,Qarabag FK,AZE1,
 VES,韦斯特里,Vestri,ISL1,
+SAB,沙巴巴库,Sabah Baku,AZE1
+LIN,林肯红魔,Lincoln Red Imps,GIB1
+DZG,萨格勒布迪纳摩,Din. Zagreb,CRO1
+CLJ,采列,Celje,SVN1
+EGN,埃格纳蒂亚,Egnatia,ALB1
+ARA,亚拉腊亚美尼亚,Ararat-Armenia,ARM1
+KAI,阿拉木图海拉提,Kairat Almaty,KAZ1
+OMO,奥莫尼亚,Omonia,CYP1
+KAU,考诺扎尔吉里斯,Kauno Zalgiris,LTU1
+KLA,克拉克斯维克,Klaksvik,FRO1
+HBS,贝尔谢巴工人,H. Beer Sheva,ISR1
+LVS,索菲亚列夫斯基,Levski Sofia,BUL1
+CRV,贝尔格莱德红星,Crvena zvezda,SRB1
+LAR,拉恩,Larne,NIR1
+SLO,布拉迪斯拉发斯拉,Slovan Bratislava,SVK1
+IBE,伊比利亚1999,Iberia 1999,GEO1
+MTA,特拉维夫马卡比,Maccabi Tel Aviv,ISR1
+SHE,谢里夫,Sheriff Tiraspol,MDA1
+PAF,帕福斯,Pafos,CYP1
+HAJ,斯普利特海杜克,Hajduk Split,CRO1
+DKV,基辅迪纳摩,Dyn. Kyiv,UKR1
+FER,费伦茨瓦罗斯,Ferencvaros,HUN1
